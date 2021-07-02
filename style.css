@@ -1,0 +1,61 @@
+* {
+  font-family: "Trebuchet MS";
+}
+a:any-link {
+  color: yellow;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+}
+.inactive {
+  display: none; /* Use this class to hide or unhide elements */
+}
+.container {
+  background: rgb(54, 3, 71);
+  background: linear-gradient(
+    180deg,
+    rgba(54, 3, 71, 1) 26%,
+    rgba(122, 13, 107, 1) 95% /* dark: #360347, light: #7a0d6b */
+  );
+  background-attachment: fixed;
+}
+.flexContainer {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.tile {
+  /*background-color: #4e4752;*/
+  background: rgb(88, 80, 92);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 80, 92, 1) 0%,
+    rgba(55, 50, 57, 1) 94%
+  );
+  opacity: 0.6;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 300px;
+  align-content: center;
+  margin: 15px;
+}
+.textHeader {
+  align-content: center;
+  color: #f75570; /* #f53f5e */
+  font-size: 24px;
+  margin: 10px;
+  text-align: left;
+}
+.textGeneric {
+  color: #ffe9ff;
+  font-size: 12px;
+  align-content: center;
+  margin: 10px;
+  text-align: center;
+}
+.inputBox {
+  border-radius: 10px;
+}
